@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="flex justify-between sm:m-7">
+        <div class="text-3xl font-semibold p-3">
+            <h1>ABDIKANI</h1>
+        </div>
+        <ul class="sm:flex hidden gap-8 text-2xl font-semibold">
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>contact</li>
+        </ul>
+
+         
+
+        <i id="iconMenu" class="fa-solid fa-bars text-4xl mr-3 sm:hidden hover:text-red-600 mt-2"></i>
+        <i id="iconX" class="fa-solid fa-x text-4xl mr-3 hidden hover:text-red-600 mt-2"></i>
+        
+        <div class="hidden sm:flex">
+        <button class="bg-blue-950 px-12 py-4 rounded-2xl text-2xl text-white">Sign</button>
+        <button class="bg-transparent border-2 border-blue-950 px-12 py-3 rounded-2xl text-2xl ml-2">Login</button>
+
+    </div>
+    </div>
+
+<!-- 
+    Responsive -->
+
+    <div id="menu" class="bg-teal-400 w-full h-[30%] hidden">
+        <ul class="sm:hidden text-2xl font-semibold text-center space-y-5 pb-3 pt-3">
+            <li class="hover:bg-blue-950 hover:text-white">Home</li>
+            <li class="hover:bg-blue-950 hover:text-white">About</li>
+            <li class="hover:bg-blue-950 hover:text-white">Service</li>
+            <li class="hover:bg-blue-950 hover:text-white">contact</li>
+        </ul>
+
+        
+
+        <div class="text-center">
+        <button class="bg-blue-950 px-28 py-4 rounded-2xl text-2xl text-white mb-3 hover:bg-blue-800">Sign</button>
+        <button class="bg-transparent border-2 border-blue-950 px-28 py-3 rounded-2xl text-2xl ml-2 hover:bg-blue-800 hover:text-white">Login</button>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
